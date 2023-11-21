@@ -5,3 +5,5 @@ let firstName = undefined
 let lastName = null
 let selectedColor = 'red';
  selectedColor = null //Clear the value of a variable
+
+ console.log( typeof name, typeof selectedColor )
