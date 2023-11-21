@@ -10,5 +10,5 @@ console.log("hello World");
 //Cannot contain a space or hyphen
 
 let firstName = "Luke";
+let lastName = "Evertson";
 console.log(firstName);
-console.log(1 + 1);
