@@ -40,7 +40,7 @@ let filteredArray = movies.filter( m => {
 console.log( filteredArray );
 
 const newArray = filteredArray.map( m => {
-    m.title
+   return m.title
 })
 
 console.log( newArray );
