@@ -12,4 +12,5 @@ console.log( first );
 
 //! MIDDLE
 const middle = numbers.splice( 0, 1 )
+console.log( middle );
 console.log( numbers );
