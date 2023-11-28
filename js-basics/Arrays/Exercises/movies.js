@@ -29,13 +29,15 @@ let filteredArray = movies.filter( m => {
     return m.year === 2020 && m.rating > 4
 })
 .sort(( a, b ) => {
-    const ratingA = a.rating;
-    const ratingB = b.rating;
+    // const ratingA = a.rating;
+    // const ratingB = b.rating;
 
-    if ( ratingA > ratingB ) return -1;
-    if ( ratingA < ratingB ) return 1;
-    return 0;
+    // if ( ratingA > ratingB ) return -1;
+    // if ( ratingA < ratingB ) return 1;
+    // return 0;
+    return a.rating - b.rating
 })
+.reverse()
 
 console.log( filteredArray );
 
